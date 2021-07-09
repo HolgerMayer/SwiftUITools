@@ -11,6 +11,8 @@
 		54CF01B42698EF2A00454D60 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CF01B32698EF2A00454D60 /* ContentView.swift */; };
 		54CF01B62698EF2B00454D60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54CF01B52698EF2B00454D60 /* Assets.xcassets */; };
 		54CF01B92698EF2B00454D60 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54CF01B82698EF2B00454D60 /* Preview Assets.xcassets */; };
+		54CF01C42698EFD800454D60 /* ButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CF01C32698EFD800454D60 /* ButtonsView.swift */; };
+		54CF01C62698F09600454D60 /* ImageTextButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CF01C52698F09600454D60 /* ImageTextButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		54CF01B52698EF2B00454D60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		54CF01B82698EF2B00454D60 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		54CF01BA2698EF2B00454D60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54CF01C32698EFD800454D60 /* ButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsView.swift; sourceTree = "<group>"; };
+		54CF01C52698F09600454D60 /* ImageTextButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTextButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +56,8 @@
 		54CF01B02698EF2A00454D60 /* SwiftUITools */ = {
 			isa = PBXGroup;
 			children = (
+				54CF01C12698EF8100454D60 /* Elements */,
+				54CF01C22698EF8A00454D60 /* Views */,
 				54CF01B12698EF2A00454D60 /* SwiftUIToolsApp.swift */,
 				54CF01B32698EF2A00454D60 /* ContentView.swift */,
 				54CF01B52698EF2B00454D60 /* Assets.xcassets */,
@@ -67,6 +73,30 @@
 				54CF01B82698EF2B00454D60 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		54CF01C02698EF7B00454D60 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				54CF01C52698F09600454D60 /* ImageTextButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		54CF01C12698EF8100454D60 /* Elements */ = {
+			isa = PBXGroup;
+			children = (
+				54CF01C02698EF7B00454D60 /* Buttons */,
+			);
+			path = Elements;
+			sourceTree = "<group>";
+		};
+		54CF01C22698EF8A00454D60 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				54CF01C32698EFD800454D60 /* ButtonsView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +168,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54CF01C62698F09600454D60 /* ImageTextButton.swift in Sources */,
+				54CF01C42698EFD800454D60 /* ButtonsView.swift in Sources */,
 				54CF01B42698EF2A00454D60 /* ContentView.swift in Sources */,
 				54CF01B22698EF2A00454D60 /* SwiftUIToolsApp.swift in Sources */,
 			);
